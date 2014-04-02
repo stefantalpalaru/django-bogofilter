@@ -3,7 +3,7 @@
 from setuptools import setup
 
 setup(name='django-bogofilter',
-      version='0.1',
+      version='0.2',
       description='Bayesian spam filtering for django_comments using bogofilter',
       long_description=open("README.rst").read(),
       author='Stefan Talpalaru',
