@@ -65,7 +65,7 @@ usage
 
    .. code:: python
 
-       BOGOFILTER_ARGS = ['-d', './bogofilter_test_dir', '-o', '0.7']
+       BOGOFILTER_ARGS = ['-d', '~/.bogofilter_comments', '-o', '0.7']
 
 tips
 ----

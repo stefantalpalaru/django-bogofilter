@@ -48,7 +48,7 @@ BOGOFILTER_ARGS = ['-o', '0.7'] # lower the spam_cutoff from the default 0.95
 - if you have use bogofilter for more than one thing in the same account, you'll
   want to specify a directory other than the default ~/.bogofilter:
 ```python
-BOGOFILTER_ARGS = ['-d', './bogofilter_test_dir', '-o', '0.7']
+BOGOFILTER_ARGS = ['-d', '~/.bogofilter_comments', '-o', '0.7']
 ```
 
 ##tips
