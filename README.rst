@@ -111,4 +111,6 @@ credits
 
 -  homepage: https://github.com/stefantalpalaru/django-bogofilter
 
+-  PyPI: https://pypi.python.org/pypi/django-bogofilter
+
 

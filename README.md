@@ -87,6 +87,8 @@ and bogofilter-1.2.4 .
 
 - homepage: https://github.com/stefantalpalaru/django-bogofilter
 
+- PyPI: https://pypi.python.org/pypi/django-bogofilter
+
 [1]: https://www.djangoproject.com/
 [2]: https://github.com/django/django-contrib-comments
 [3]: http://bogofilter.sourceforge.net/
