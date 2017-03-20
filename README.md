@@ -1,4 +1,4 @@
-##description
+## description
 
 Bayesian filtering applied to comment spam.
 
@@ -14,7 +14,7 @@ feed bogofilter any field we deem relevant. Training is done from the Django
 admin, moderation with a custom moderation class and the app is highly
 configurable.
 
-##usage
+## usage
 
 - if you don't have a [custom comments app][4], make one
 - in your custom comments app subclass your model from bogofilter.models.BogofilterComment
@@ -51,7 +51,7 @@ BOGOFILTER_ARGS = ['-o', '0.7'] # lower the spam_cutoff from the default 0.95
 BOGOFILTER_ARGS = ['-d', '~/.bogofilter_comments', '-o', '0.7']
 ```
 
-##tips
+## tips
 
 - some spam bots stay only a few seconds on page so they can be weeded out based on that.
   You can get the 'time_on_page' field from the form (it's a floating point timestamp),
@@ -64,13 +64,13 @@ BOGOFILTER_ARGS = ['-d', '~/.bogofilter_comments', '-o', '0.7']
 - regularly delete the spam comments after an interval long enough to allow you to rescue incorrectly
   classified ham.
 
-##requirements
+## requirements
 
 - [Django][1]
 - [django-contrib-comments][2]
 - [bogofilter][3]
 
-##testing
+## testing
 
 ```sh
 python setup.py test
@@ -81,9 +81,9 @@ to use the 'bogofilter' app wherever possible.
 Tested with python-2.7.6, python-3.3.4, django-1.6.2, django-contrib-comments-1.5
 and bogofilter-1.2.4 .
 
-##credits
+## credits
 
-- author: Stefan Talpalaru <stefantalpalaru@yahoo.com>
+- author: Ștefan Talpalaru <stefantalpalaru@yahoo.com>
 
 - homepage: https://github.com/stefantalpalaru/django-bogofilter
 
